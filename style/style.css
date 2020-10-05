@@ -1,0 +1,125 @@
+/*global style*/
+*
+{
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Spartan', sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+#top_section
+{
+	display: flex;
+}
+/*top section*/
+
+/*nav section*/
+
+nav 
+{
+	display: flex;
+	justify-content: flex-start;
+	width: 840px;
+	height: 534px;
+	background: url('../images/desktop-image-hero-1.jpg') no-repeat;
+	background-size: contain;
+	color:hsl(0, 0%, 100%);
+
+}
+
+nav a:hover 
+{
+	text-decoration: underline;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline;
+	padding-right: 10px;
+	margin-left:10px;
+
+}
+nav div h1
+{
+	margin-top: -3px;
+}
+nav div 
+{
+	margin: 30px  0px 0px 60px;
+}
+
+/*shop section*/
+
+.shop_now
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	justify-content: center;
+	margin:60px;
+}
+
+.shop_now h4
+{
+	margin-top: 20px;
+}
+
+
+.shop_now h4 a:hover
+{
+  opacity: 0.60;
+}
+
+/*swipe section*/
+.div_swipe
+{
+	display: flex;
+	width: 940px;
+	justify-content: flex-end;
+	font-size: 30px;
+	margin-top: -50px;
+}
+
+.div_swipe p 
+{
+	
+	background-color: hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 63%);
+	width: 50px;
+	height: 50px;
+
+}
+
+
+.div_swipe p img
+{
+	padding: 15px;
+}
+
+.div_swipe p:hover
+{
+	background-color: hsl(0, 0%, 27%);
+}
+
+/*down-section*/
+#down_section
+{
+	display: flex;
+}
+
+.down_section_div_text
+{
+	text-align: justify;
+	margin: 40px 30px 0px 30px;
+}
+
+.down_section_div_text h2
+{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
